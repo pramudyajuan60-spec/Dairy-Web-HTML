@@ -1,0 +1,164 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #f5f7f7;
+    margin: 8px 4%;
+    color: black;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 28px;
+    font-style: italic;
+    color: #315b58;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #c9d4d2;
+}
+
+ul {
+    padding-left: 35px;
+}
+
+li {
+    margin: 4px 0;
+}
+
+/* Menu sederhana */
+body > ul {
+    background-color: #e8f0ef;
+    border: 1px solid #d2dfdd;
+    border-radius: 5px;
+    padding: 10px 10px 10px 35px;
+}
+
+h3 {
+    text-align: center;
+    color: #315b58;
+}
+
+a {
+    color: #287d78;
+}
+
+a:hover {
+    color: #174d49;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.article {
+    width: 85%;
+    background-color: white;
+    border: 1px solid #dce5e3;
+    border-radius: 6px;
+    padding: 12px 18px;
+    box-sizing: border-box;
+}
+
+.article li {
+    background-color: #fafcfc;
+    border: 1px solid #e1e8e7;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.gallery {
+    width: 15%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #dce5e3;
+    border-radius: 6px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 85px;
+    height: 88px;
+    display: block;
+    margin: 6px auto;
+    border: 1px solid #d5dddd;
+    border-radius: 4px;
+}
+
+.photo-video {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.photo {
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #dce5e3;
+    border-radius: 6px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.photo img {
+    width: 90px;
+    height: 88px;
+    margin: 4px;
+    border: 1px solid #d5dddd;
+    border-radius: 4px;
+}
+
+.video {
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #dce5e3;
+    border-radius: 6px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.video iframe {
+    width: 95%;
+    height: 280px;
+    border: 1px solid #d5dddd;
+    border-radius: 5px;
+}
+
+/* Kotak untuk daftar artikel pada halaman Article */
+body > ol {
+    background-color: white;
+    border: 1px solid #dce5e3;
+    border-radius: 6px;
+    padding: 18px 35px;
+}
+
+body > ol li {
+    background-color: #fafcfc;
+    border: 1px solid #e1e8e7;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #c9d4d2;
+    padding-top: 12px;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    .container, .photo-video {
+        display: block;
+    }
+
+    .article, .gallery, .photo, .video {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
